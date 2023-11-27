@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TibaEvaluationExercise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4568275927cdf511ece17b5d1350fa24f60dde0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TibaEvaluationExercise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TibaEvaluationExercise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

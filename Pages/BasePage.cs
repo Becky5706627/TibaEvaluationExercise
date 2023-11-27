@@ -26,10 +26,8 @@ namespace TibaEvaluationExercise.Pages
                 Logger.Info($"Attempting to find element with locator: {locator}");
                 WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(timeout));
 
-                // Wait for the element to be present
                 IWebElement element = wait.Until(ExpectedConditions.ElementExists(locator));
 
-                // Wait for the element to be visible and interactable
                 return wait.Until(ExpectedConditions.ElementIsVisible(locator));
             }
             catch (NoSuchElementException ex)
@@ -59,8 +57,6 @@ namespace TibaEvaluationExercise.Pages
             }
         }
 
-
-
         protected IWebElement FindElementInElement(IWebElement parent, By locator, int timeout)
         {
             try
@@ -75,7 +71,6 @@ namespace TibaEvaluationExercise.Pages
                 throw new NoSuchElementException($"Element with locator: {locator} was not found within parent element after {timeout} seconds.", ex);
             }
         }
-
 
         protected IReadOnlyCollection<IWebElement> FindElements(By locator, int timeout)
         {
@@ -113,7 +108,6 @@ namespace TibaEvaluationExercise.Pages
             }
         }
 
-
         protected void Click(By locator, int timeout)
         {
             try
@@ -141,7 +135,6 @@ namespace TibaEvaluationExercise.Pages
                 WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
                 wait.Until(drv => element.Displayed && element.Enabled);
 
-                // Click the element
                 element.Click();
             }
             catch (Exception ex) when (ex is ElementClickInterceptedException ||
@@ -152,7 +145,6 @@ namespace TibaEvaluationExercise.Pages
                 throw new InvalidOperationException($"Error occurred while clicking on the element: {ex.Message}", ex);
             }
         }
-
 
         protected void EnterText(By locator, string text, int timeout)
         {
@@ -206,7 +198,6 @@ namespace TibaEvaluationExercise.Pages
             }
         }
 
-
         public void ScrollToElementWithActions(IWebElement element)
         {
             Logger.Info($"Attempting to scroll to an element");
@@ -214,7 +205,6 @@ namespace TibaEvaluationExercise.Pages
             actions.MoveToElement(element);
             actions.Perform();
         }
-
 
         protected void NavigateTo(string url)
         {

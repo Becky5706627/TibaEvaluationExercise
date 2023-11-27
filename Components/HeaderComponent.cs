@@ -16,10 +16,6 @@ namespace TibaEvaluationExercise.Components
             EnterText(searchFieldLocator, text, 5);
             Click(searchButtonLocator, 5);
             return new YoutubeSearchResultsPage(Driver);
-
         }
-
-
-
     }
 }

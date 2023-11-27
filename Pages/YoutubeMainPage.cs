@@ -13,6 +13,5 @@ namespace TibaEvaluationExercise.Pages
         {
             this.Header = new HeaderComponent(driver);
         }
-
     }
 }

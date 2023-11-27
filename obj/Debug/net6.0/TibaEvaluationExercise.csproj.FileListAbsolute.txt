@@ -118,3 +118,4 @@ C:\Users\mendi\Desktop\becky\tiba\TibaEvaluationExercise\obj\Debug\net6.0\refint
 C:\Users\mendi\Desktop\becky\tiba\TibaEvaluationExercise\obj\Debug\net6.0\TibaEvaluationExercise.pdb
 C:\Users\mendi\Desktop\becky\tiba\TibaEvaluationExercise\obj\Debug\net6.0\TibaEvaluationExercise.genruntimeconfig.cache
 C:\Users\mendi\Desktop\becky\tiba\TibaEvaluationExercise\obj\Debug\net6.0\ref\TibaEvaluationExercise.dll
+C:\Users\mendi\Desktop\becky\tiba\TibaEvaluationExercise\obj\Debug\net6.0\TibaEvaluationExercise.sourcelink.json

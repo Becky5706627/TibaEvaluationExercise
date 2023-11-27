@@ -15,7 +15,6 @@ namespace TibaEvaluationExercise.Pages
         private By videoResult = By.CssSelector("div>ytd-video-renderer");
         private By title = By.CssSelector("#title-wrapper #video-title");
         private By channelName = By.CssSelector("ytd-channel-name#channel-name");
-        private By views = By.CssSelector("#metadata-line .inline-metadata-item");
         public YoutubeSearchResultsPage(IWebDriver driver) : base(driver)
         {
             this.Header = new HeaderComponent(driver);
@@ -51,7 +50,5 @@ namespace TibaEvaluationExercise.Pages
 
             throw new NoSuchElementException($"Video with title '{videoTitle}' not found.");
         }
-
-
     }
 }

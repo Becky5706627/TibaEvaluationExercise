@@ -27,7 +27,6 @@ namespace TibaEvaluationExercise.Managers
                 return instance;
             }
         }
-
         public IWebDriver GetDriver(string browser)
         {
             if (driver == null)

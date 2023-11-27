@@ -10,7 +10,6 @@ namespace TibaEvaluationExercise.Utilities
     {
         private static readonly NLog.Logger logger = LogManager.GetCurrentClassLogger();
 
-        // Initialize the session ID
         public static void InitializeSession()
         {
             NLog.GlobalDiagnosticsContext.Set("sessionID", Guid.NewGuid().ToString("N"));

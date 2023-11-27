@@ -14,12 +14,10 @@ namespace TibaEvaluationExercise.Pages
         private By moreButton = By.CssSelector("tp-yt-paper-button#expand");
         private By videoArtistsName = By.CssSelector("div.yt-video-attribute-view-model__metadata>.yt-video-attribute-view-model__subtitle");
 
-
         public YoutubeVideoPage(IWebDriver driver) : base(driver)
         {
             this.Header = new HeaderComponent(driver);
         }
-
 
         public void SkipAdIfExists()
         {
