@@ -1,0 +1,53 @@
+2023-11-27 15:18:10.7712 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Search | Attempting to get text in element with locator: By.CssSelector: input#search
+2023-11-27 15:18:10.8491 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | EnterText | Attempting to find element with locator: By.CssSelector: input#search
+2023-11-27 15:18:11.0701 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Search | Attempting to click in element with locator: By.Id: search-icon-legacy
+2023-11-27 15:18:11.0701 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Click | Attempting to find element with locator: By.Id: search-icon-legacy
+2023-11-27 15:18:11.2805 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | OpenFilter | Attempting to click in element with locator: By.CssSelector: #filter-button
+2023-11-27 15:18:11.2805 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Click | Attempting to find element with locator: By.CssSelector: #filter-button
+2023-11-27 15:18:13.1405 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | ApplyFilter | Attempting to find elements with locator: By.CssSelector: #options>ytd-search-filter-group-renderer
+2023-11-27 15:18:13.3173 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | OpenFilter | Attempting to click in element with locator: By.CssSelector: #filter-button
+2023-11-27 15:18:13.3255 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Click | Attempting to find element with locator: By.CssSelector: #filter-button
+2023-11-27 15:18:13.4712 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | ApplyFilter | Attempting to find elements with locator: By.CssSelector: #options>ytd-search-filter-group-renderer
+2023-11-27 15:18:13.6976 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SelectVideoFromResultsByTitle | Attempting to find elements with locator: By.CssSelector: div>ytd-video-renderer
+2023-11-27 15:18:13.7251 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SelectVideoFromResultsByTitle | Attempting to find element Element (id = 6385A652466E5A57BE70FF526AE4ECBA_element_1753) in element with locator: By.CssSelector: #title-wrapper #video-title
+2023-11-27 15:18:13.7639 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SearchAndPlayVideoWithFiltersAndHandleAds | titleElement: I Will Survive - Alien Song
+2023-11-27 15:18:13.7799 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | GetChannelName | Attempting to find element Element (id = 6385A652466E5A57BE70FF526AE4ECBA_element_1753) in element with locator: By.CssSelector: ytd-channel-name#channel-name
+2023-11-27 15:18:13.7799 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | GetChannelName | Attempting to get text from an element
+2023-11-27 15:18:13.8044 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | GetChannelName | Element text: 
+
+nikki7993
+
+
+
+nikki7993
+
+
+
+
+
+
+
+2023-11-27 15:18:13.8044 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SearchAndPlayVideoWithFiltersAndHandleAds | channelNameElement:
+
+nikki7993
+
+
+
+nikki7993
+
+
+
+
+
+
+
+2023-11-27 15:18:13.8825 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Attempting to find element with locator: By.CssSelector: span.ytp-ad-preview-container
+2023-11-27 15:18:15.5139 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Attempting to get text from an element
+2023-11-27 15:18:15.5766 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Element text: 5
+2023-11-27 15:18:15.5766 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Attempting to wait for element to disappear with locator: By.CssSelector: span.ytp-ad-preview-container
+2023-11-27 15:18:20.0698 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Attempting to find element with locator: By.CssSelector: button.ytp-ad-skip-button-modern
+2023-11-27 15:18:20.1053 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | SkipAdIfExists | Attempting to click in element
+2023-11-27 15:18:20.3152 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | ExpandVideoDescription | Attempting to click in element with locator: By.CssSelector: tp-yt-paper-button#expand
+2023-11-27 15:18:20.3152 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | Click | Attempting to find element with locator: By.CssSelector: tp-yt-paper-button#expand
+2023-11-27 15:18:20.6516 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | GetArtistsNameFromVideoDescription | Attempting to get text form an element
+2023-11-27 15:18:20.6516 | INFO | TibaEvaluationExercise.Utilities.Logger | SearchAndPlayVideoWithFiltersAndHandleAds | GetText | Attempting to find element with locator: By.CssSelector: div.yt-video-attribute-view-model__metadata>.yt-video-attribute-view-model__subtitle
