@@ -1,77 +1,58 @@
-# TibaEvaluationExercise Project Structure
+# TibaEvaluationExercise
 
-This project is designed for QA Automation tasks using Selenium WebDriver with C#. 
-It includes a logger for recording actions and results, and a series of automated tests for the YouTube platform.
+This project is an automation framework designed for testing YouTube's video playback functionality using Selenium WebDriver with C#. It includes a custom logger for recording actions and results, and a series of automated tests that simulate user interactions with YouTube.
 
-## Project Directory Layout
+## Project Structure
 
-Here's a high-level overview of the project's directory structure:
-TibaEvaluationExercise/
-|-- Components/
-| |-- FilterPopupComponent.cs
-| |-- HeaderComponent.cs
-|-- Config/
-| |-- config.json
-| |-- TestConfig.cs
-|-- logs/
-| |-- log_2023-11-27.txt
-|-- Managers/
-| |-- WebDriverManager.cs
-|-- Pages/
-| |-- BasePage.cs
-| |-- YoutubeMainPage.cs
-| |-- YoutubeSearchResultsPage.cs
-| |-- YoutubeVideoPage.cs
-|-- TestData/
-| |-- testDataEnglish.json
-|-- Tests/
-| |-- BaseTest.cs
-| |-- YouTubeVideoPlaybackTests.cs
-|-- Utilities/
-| |-- Logger.cs
-| |-- StringHelpers.cs
-| |-- TestAssert.cs
-|-- NLog.config
-|-- README.md
+The project is structured as follows:
 
-## Components
+- **`Components`**: Reusable components that interact with web elements, such as headers and filters.
+- **`Config`**: Configuration files and classes for managing settings and test data.
+- **`logs`**: Log files generated during test executions.
+- **`Managers`**: Management of WebDriver instances.
+- **`Pages`**: Page objects representing pages within the YouTube application.
+- **`TestData`**: Test data in JSON format.
+- **`Tests`**: Test cases and suites.
+- **`Utilities`**: Helper classes and methods for logging, assertions, etc.
+- **`NLog.config`**: Configuration for the NLog logger.
+- **`README.md`**: Documentation for the project (this file).
 
-Contains reusable components that interact with web elements, such as headers and pop-up filters.
+## Prerequisites
+- .NET Core SDK (version specified in the project)
+- A compatible web browser (e.g., Chrome, Firefox) and its corresponding WebDriver
+- Visual Studio or a similar IDE that supports C# projects
 
-## Config
+## Setup
+1. Clone the project from the repository: git clone https://github.com/Becky5706627/TibaEvaluationExercise.git
+2. Open the solution file (`*.sln`) in Visual Studio.
+3. Restore NuGet packages to resolve any dependencies:
+	```sh
+	dotnet restore
+	```
 
-Includes configuration files and classes to manage settings and test data.
+## Running the Tests
+To execute the tests, you can either use the built-in test runner in Visual Studio or run them via the command line: 
+```sh
+dotnet test
+```
 
-## logs
+## Test Flow Description
+The automated test performs the following actions:
+1. **Navigate to YouTube**: Opens the YouTube homepage.
+2. **Search for Video**: Searches for "I Will Survive - Alien song".
+3. **Apply Filters**: Utilizes the 'FILTERS' option to refine search results.
+- Sets 'TYPE' as 'Video'.
+- Orders results by 'View count'.
+4. **Select Video**: Finds and selects the video with the specified URL.
+5. **Extract Channel Name**: Retrieves the name of the user/channel that posted the video and logs it.
+6. **Play Video**: Initiates video playback.
+7. **Handle Ads**: Skips ads if present before the video starts.
+8. **Expand Video Description**: Clicks the ‘…more’ button to reveal additional details.
+9. **Log Artist's Name**: Extracts and logs the artist’s name from the video description.
 
-Stores log files generated during test execution, which provide a detailed account of the automation process.
-
-## Managers
-
-Manages web driver instances, ensuring proper initialization and closure of browsers.
-
-## Pages
-
-Represents the pages within the YouTube application, encapsulating the page-specific elements and interactions.
-
-## TestData
-
-Holds test data in JSON format that can be loaded to drive tests with various inputs.
-
-## Tests
-
-Contains test classes that define the automated test cases to be run.
-
-## Utilities
-
-Provides helper classes and methods to support logging, assertions, and other common tasks.
-
-## How to Run Tests
-
-1. Ensure that you have the required version of .NET SDK installed.
-2. Clone the project from the repository: git clone https://github.com/Becky5706627/TibaEvaluationExercise.git
-3. Build the solution to restore NuGet packages and compile the project.
-4. Run tests using the Test Explorer within Visual Studio or by using the dotnet CLI:
+## Notes
+- The project includes a logger to document key steps and results.
+- For detailed explanations of specific code segments, refer to the inline comments within the source files.
 
 
 
