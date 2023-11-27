@@ -41,14 +41,14 @@ The automated test performs the following actions:
 1. **Navigate to YouTube**: Opens the YouTube homepage.
 2. **Search for Video**: Searches for "I Will Survive - Alien song".
 3. **Apply Filters**: Utilizes the 'FILTERS' option to refine search results.
-- Sets 'TYPE' as 'Video'.
-- Orders results by 'View count'.
-4. **Select Video**: Finds and selects the video with the specified URL.
-5. **Extract Channel Name**: Retrieves the name of the user/channel that posted the video and logs it.
-6. **Play Video**: Initiates video playback.
-7. **Handle Ads**: Skips ads if present before the video starts.
-8. **Expand Video Description**: Clicks the ‘…more’ button to reveal additional details.
-9. **Log Artist's Name**: Extracts and logs the artist’s name from the video description.
+4. **Sets**: 'TYPE' as 'Video' and 'SORT BY' as 'View count'.
+5. **Orders results by**: 'View count'.
+6. **Select Video**: Finds and selects the video with the specified URL.
+7. **Extract Channel Name**: Retrieves the name of the user/channel that posted the video and logs it.
+8. **Play Video**: Initiates video playback.
+9. **Handle Ads**: Skips ads if present before the video starts.
+10. **Expand Video Description**: Clicks the ‘…more’ button to reveal additional details.
+11. **Log Artist's Name**: Extracts and logs the artist’s name from the video description.
 
 ## Notes
 - The project includes a logger to document key steps and results.
